@@ -10,7 +10,7 @@
             "driver": "MariaDB",
             "name": "ExcuseGenerator",
             "database": "Excuse",
-            "username": "gen",
+            "username": "root",
             "password": "password"
         }
     ]
