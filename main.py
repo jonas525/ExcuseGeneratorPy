@@ -5,7 +5,7 @@ import random
 # Function to generate an excuse
 def generate_excuse():
     random_excuse = random.choice(excuses)[0]
-    print("Wygenerowano wymówkę:", random_excuse, )
+    print("Excuse: ", random_excuse, )
     label_result.config(text=random_excuse, font=('Arial', 13))
    
 # Database connection
